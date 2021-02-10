@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PizzabotCC</string>
+
+    <string name="toolbar_title">Pizza logistics</string>
+    
+    <string name="main_command_hint">Enter a command</string>
+    <string name="main_command_sample">Command sample: "7x7 (2,5) (3,4)…"</string>
+    <string name="main_apply_command">Apply command</string>
+    <string name="main_build_route">Build route</string>
+    <string name="main_route_instruction_title">Delivery route:</string>
+    <string name="main_delivery_points_found">%d Pizza needs to be delivered</string>
+    <plurals name="pizzaCount">
+        <item quantity="one">%d Pizza needs to be delivered</item>
+        <item quantity="other">%d Pizzas need to be delivered</item>
+    </plurals>
+</resources>
