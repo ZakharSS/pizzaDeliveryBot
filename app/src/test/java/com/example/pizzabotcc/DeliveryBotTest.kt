@@ -1,6 +1,7 @@
 package com.example.pizzabotcc
 
 import com.example.pizzabotcc.bot.DeliveryBot
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 import org.junit.Before
@@ -19,7 +20,7 @@ class DeliveryBotTest {
         val command = "5x5 (1, 3) (4, 4)"
         deliveryBot.parseCommand(command)
         val deliveryRoute = deliveryBot.buildRoute()
-        assert(deliveryRoute == "ENNNDEEEND")
+        assertEquals(deliveryRoute, "ENNNDEEEND")
     }
 
     @Test(expected = IllegalArgumentException::class)
